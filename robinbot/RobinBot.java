@@ -90,6 +90,10 @@ public class RobinBot
         // initialise instance variables
         int x = 0;
     }
+    
+    public graysonresponse(){
+        response = "I was once a grayson, but now I am robin!";
+    }
 
     /**
      * An example of a method - replace this comment with your own
@@ -225,7 +229,7 @@ public class RobinBot
                 || findKeyword(statement, "flying",0) >= 0
                 || findKeyword(statement, "graysons",0) >= 0)
         {
-            response = keywordResponse[8];
+            response = graysonresponse();
         }
         
         //mr. freeze, iceboy
